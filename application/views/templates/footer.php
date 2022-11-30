@@ -47,3 +47,10 @@ All rights reserved.
 <!-- <script src="<?php echo base_url() ?>assets/dist/js/demo.js"></script> -->
 
 <script src="<?php echo base_url() ?>assets/dist/js/pages/dashboard.js"></script>
+
+<script>
+  function clearInputFields() {
+    document.getElementById("title").value = '';
+    document.getElementById("body").value = '';
+  }
+</script>

@@ -169,7 +169,7 @@
                                         <textarea name="body" class="form-control" id="body" placeholder="body..." rows="3"></textarea>
                                     </div>
 
-                                    <button type="reset" class="btn btn-danger" data-dismiss="modal">Reset</button>
+                                    <button type="reset" class="btn btn-danger" data-dismiss="modal" onclick="clearInputFields()">Reset</button>
                                     <button type="submit" class="btn btn-primary">Save</button>
                                 </form>
                             </div>
