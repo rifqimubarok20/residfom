@@ -30,8 +30,9 @@
 
     <style>
         .scroll {
-            max-height: 315px;
-            overflow: scroll;
+            height: 315px;
+            overflow: auto;
+            overflow-x: hidden;
         }
     </style>
 
