@@ -9,6 +9,7 @@
             $data = array(
                 'nama_peminjam' => $this->input->post('nama_peminjam', true),
                 'nama_fasilitas' => $this->input->post('nama_fasilitas', true),
+                'jumlah' => $this->input->post('jumlah', true),
                 'tgl_pinjam' => $this->input->post('tgl_pinjam', true),
                 'tgl_kembali' => $this->input->post('tgl_kembali', true)
             );
@@ -29,6 +30,7 @@
             $data = array(
                 'nama_peminjam' => $this->input->post('nama_peminjam', true),
                 'nama_fasilitas' => $this->input->post('nama_fasilitas', true),
+                'jumlah' => $this->input->post('jumlah', true),
                 'tgl_pinjam' => $this->input->post('tgl_pinjam', true),
                 'tgl_kembali' => $this->input->post('tgl_kembali', true)
             );

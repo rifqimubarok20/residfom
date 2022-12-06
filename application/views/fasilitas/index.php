@@ -45,6 +45,7 @@
                         <tr>
                             <th scope="col">Nama Peminjam</th>
                             <th scope="col">Nama Fasilitas</th>
+                            <th scope="col">Jumlah Fasilitas</th>
                             <th scope="col">Tangggal Pinjam</th>
                             <th scope="col">Tanggal Kembali</th>
                         </tr>
@@ -55,6 +56,9 @@
                             </td>
                             <td>
                                 <?= $fasilitas['nama_fasilitas'] ?>
+                            </td>
+                            <td>
+                                <?= $fasilitas['jumlah'] ?>
                             </td>
                             <td>
                                 <?= $fasilitas['tgl_pinjam'] ?>

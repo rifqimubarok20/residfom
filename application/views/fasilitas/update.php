@@ -37,6 +37,14 @@
                     </small>
                 </div>
                 <div class="mb-3">
+                    <label for="jumlah" class="form-label">Jumlah Fasilitas</label>
+                    <input value="<?= $fasilitas['jumlah']; ?>" type="text" name="jumlah"
+                        class="form-control" id="jumlah">
+                    <small class="form-text text-danger">
+                        <?= form_error('jumlah'); ?>
+                    </small>
+                </div>
+                <div class="mb-3">
                     <label for="tgl_pinjam" class="form-label">Tanggal Pinjam</label>
                     <input value="<?= $fasilitas['tgl_pinjam']; ?>" type="date" name="tgl_pinjam" class="form-control"
                         id="tgl_pinjam">

@@ -25,6 +25,7 @@
 
             $this->form_validation->set_rules('nama_peminjam', 'Nama Peminjam', 'required|max_length[35]');
             $this->form_validation->set_rules('nama_fasilitas', 'Nama Fasilitas yang Dipinjam', 'required|max_length[35]');
+            $this->form_validation->set_rules('jumlah', 'Jumlah Fasilitas yang Dipinjam', 'required|integer');
             $this->form_validation->set_rules('tgl_pinjam', 'Tanggal Pinjam', 'required');
             $this->form_validation->set_rules('tgl_kembali', 'Tanggal Kembali', 'required');
 
@@ -61,6 +62,7 @@
 
             $this->form_validation->set_rules('nama_peminjam', 'Nama Peminjam', 'required|max_length[35]');
             $this->form_validation->set_rules('nama_fasilitas', 'Nama Fasilitas yang Dipinjam', 'required|max_length[35]');
+            $this->form_validation->set_rules('jumlah', 'Jumlah Fasilitas yang Dipinjam', 'required|integer');
             $this->form_validation->set_rules('tgl_pinjam', 'Tanggal Pinjam', 'required');
             $this->form_validation->set_rules('tgl_kembali', 'Tanggal Kembali', 'required');
 
