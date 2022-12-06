@@ -29,7 +29,7 @@
                 </li>
                 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="<?= base_url('fasilitas')?>" class="nav-link">
                         <i class="nav-icon fas fa-luggage-cart""></i>
                         <p>
                             Peminjaman Fasilitas
@@ -38,7 +38,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="<?= base_url('warga')?>" class="nav-link">
                         <i class="nav-icon fas fa-user"></i>
                         <p>
                             Warga

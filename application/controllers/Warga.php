@@ -26,6 +26,7 @@ class Warga extends CI_Controller{
         $this->pagination->initialize($config);
 
         $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar');
         $this->load->view('warga/index', $data);
         $this->load->view('templates/footer');
     }
@@ -40,6 +41,7 @@ class Warga extends CI_Controller{
 
         if ($this->form_validation->run() == FALSE) {
             $this->load->view('templates/header', $data);
+            $this->load->view('templates/sidebar');
             $this->load->view('warga/create');
             $this->load->view('templates/footer');            
         }else {
@@ -59,6 +61,7 @@ class Warga extends CI_Controller{
         $data['judul'] = 'Tambah Data warga';
         $data['warga'] = $this->Warga_model->getWargaById($id);
         $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar');
         $this->load->view('warga/detail', $data);
         $this->load->view('templates/footer');
     }
@@ -75,6 +78,7 @@ class Warga extends CI_Controller{
 
         if ($this->form_validation->run() == FALSE) {
             $this->load->view('templates/header', $data);
+            $this->load->view('templates/sidebar');
             $this->load->view('warga/update', $data);
             $this->load->view('templates/footer');            
         }else {

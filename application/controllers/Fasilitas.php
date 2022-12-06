@@ -15,6 +15,7 @@
             }
 
             $this->load->view('templates/header', $data);
+            $this ->load->view('templates/sidebar');
             $this->load->view('fasilitas/index', $data);
             $this->load->view('templates/footer');
         }
@@ -29,6 +30,7 @@
 
             if ($this->form_validation->run() == FALSE) {
                 $this->load->view('templates/header', $data);
+                $this ->load->view('templates/sidebar');
                 $this->load->view('fasilitas/create');
                 $this->load->view('templates/footer');            
             }else {
@@ -48,6 +50,7 @@
             $data['data'] = 'Detail Data Fasilitas';
             $data['fasilitas'] = $this->Fasilitas_model->getFasilitasById($id);
             $this->load->view('templates/header', $data);
+            $this ->load->view('templates/sidebar');
             $this->load->view('fasilitas/detail');
             $this->load->view('templates/footer');
         }
@@ -63,6 +66,7 @@
 
             if ($this->form_validation->run() == FALSE) {
                 $this->load->view('templates/header', $data);
+                $this->load->view('templates/sidebar');
                 $this->load->view('fasilitas/update');
                 $this->load->view('templates/footer');            
             }else {
