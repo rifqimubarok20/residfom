@@ -21,7 +21,11 @@ class Admin extends CI_Controller {
 	public function dashboard()
 	{
 		$this -> load -> model('m_news');
+		$this -> load -> model('Fasilitas_model');
+		$this -> load -> model('Warga_model');
         $data["news"] = $this -> m_news -> get_news();
+		$data['total_fasilitas'] = $this->Fasilitas_model->total_rows();
+		$data['total_warga'] = $this->Warga_model->total_rows();
 
 		$this -> load -> view('templates/header');
 		$this -> load -> view('templates/sidebar');

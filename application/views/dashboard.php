@@ -20,32 +20,19 @@
     <section class="content">
         <div class="container-fluid">
 
-            <div class="row">
-                <div class="col-lg-4 col-12">
-
-                    <div class="small-box bg-success">
-                        <div class="inner">
-                            <h3>10.000.000</h3>
-                            <p>Kas Masjid</p>
-                        </div>
-                        <div class="icon">
-                            <i class="fas fa-wallet"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
+            <div class="row">              
 
                 <div class="col-lg-4 col-12">
 
                     <div class="small-box bg-warning">
                         <div class="inner">
-                            <h3>44</h3>
+                            <h3><?php echo $total_fasilitas ?></h3>
                             <p>Peminjaman Fasilitas</p>
                         </div>
                         <div class="icon">
                             <i class="fas fa-luggage-cart"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="<?= base_url('fasilitas')?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -53,13 +40,13 @@
 
                     <div class="small-box bg-danger">
                         <div class="inner">
-                            <h3>65</h3>
+                            <h3><?php echo $total_warga ?></h3>
                             <p>Jumlah Warga</p>
                         </div>
                         <div class="icon">
                             <i class="nav-icon fas fa-user"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="<?= base_url('warga')?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
