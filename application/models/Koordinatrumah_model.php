@@ -54,4 +54,9 @@ class koordinatrumah_model extends CI_Model
         $query = $this->db->get('tbl_koordinatrumah');
         return $query;
     }
+
+    function total_rows()
+    {
+        return $this->db->get('tbl_koordinatrumah')->num_rows();
+    }
 }

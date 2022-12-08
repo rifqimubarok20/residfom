@@ -50,55 +50,24 @@
                     </div>
                 </div>
 
+                <div class="col-lg-4 col-12">
+
+                    <div class="small-box bg-primary">
+                        <div class="inner">
+                            <h3><?php echo $total_rumah ?></h3>
+                            <p>Jumlah Marking Daerah</p>
+                        </div>
+                        <div class="icon">
+                            <i class="nav-icon fas fa-globe"></i>
+                        </div>
+                        <a href="<?= base_url('rumah')?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+
             </div>
 
 
             <div class="row">
-
-                <section class="col-lg-12 connectedSortable">
-                    <div class="card bg-gradient-primary">
-                        <div class="card-header border-0">
-                            <h3 class="card-title">
-                                <i class="fas fa-map-marker-alt mr-1"></i>
-                                Visitors
-                            </h3>
-
-                            <div class="card-tools">
-                                <button type="button" class="btn btn-primary btn-sm daterange" title="Date range">
-                                    <i class="far fa-calendar-alt"></i>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-sm" data-card-widget="collapse" title="Collapse">
-                                    <i class="fas fa-minus"></i>
-                                </button>
-                            </div>
-
-                        </div>
-                        <div class="card-body">
-                            <div id="world-map" style="height: 250px; width: 100%;"></div>
-                        </div>
-
-                        <div class="card-footer bg-transparent">
-                            <div class="row">
-                                <div class="col-4 text-center">
-                                    <div id="sparkline-1"></div>
-                                    <div class="text-white">Visitors</div>
-                                </div>
-
-                                <div class="col-4 text-center">
-                                    <div id="sparkline-2"></div>
-                                    <div class="text-white">Online</div>
-                                </div>
-
-                                <div class="col-4 text-center">
-                                    <div id="sparkline-3"></div>
-                                    <div class="text-white">Sales</div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
 
                 <section class="col-lg-7 connectedSortable">
 
