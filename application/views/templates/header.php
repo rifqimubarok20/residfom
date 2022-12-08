@@ -36,6 +36,8 @@
         }
     </style>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <script nonce="2c642fe3-48f1-4072-b597-529d06122e66">
         (function(w, d) {
             ! function(e, f, g, h) {

@@ -47,6 +47,15 @@
                 </li>
 
                 <li class="nav-item">
+                    <a href="<?= base_url('rumah') ?>" class="nav-link">
+                        <i class="nav-icon fas fa-globe"></i>
+                        <p>
+                            GIS
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-sign-out-alt"></i>
                         <p>

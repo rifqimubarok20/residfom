@@ -12,6 +12,12 @@ class Warga_model extends CI_model
         return $this->db->get('warga', $limit, $start)->result_array();
     }
 
+    public function getAll()
+    {
+        $query = $this->db->get('warga');
+        return $query;
+    }
+
     public function countAllWarga()
     {
         return $this->db->get('warga')->num_rows();
